@@ -8,10 +8,11 @@ This DataFrame class accepts a ArrayList<String> type for column names and any n
 # Parameters
 DataFrame(ArrayList<String> colNames, List<>... cols)
 * ArrayList<String> colNames (optional)
-** An ArrayList of type String that contains the column names of the table.
-** The length (size()) of the ArrayList must be equal to the number of data columns
+An ArrayList of type String that contains the column names of the table.
+  
+The length (size()) of the ArrayList must be equal to the number of data columns
 * List<>... cols,
-** Any number of List<> Objects of any type that contain one column of data
+Any number of List<> Objects of any type that contain one column of data
 
 ## Instantiation example
 ```java
